@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model Basics" duration-ms="14475" started-at="2021-07-25T13:26:57 IST" finished-at="2021-07-25T13:27:12 IST">
+    <groups>
+    </groups>
+    <test name="login Test" duration-ms="7013" started-at="2021-07-25T13:26:57 IST" finished-at="2021-07-25T13:27:04 IST">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@171f0fe]" name="loginTest" duration-ms="6841" started-at="2021-07-25T13:26:57 IST" data-provider="dp" finished-at="2021-07-25T13:27:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Mysterious21@, Runmode=Y, username=ishakhurna21@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- login Test -->
+    <test name="ContactUs Test" duration-ms="6182" started-at="2021-07-25T13:27:06 IST" finished-at="2021-07-25T13:27:12 IST">
+      <class name="com.w2a.testcases.ContactUsTest">
+        <test-method status="PASS" signature="contactUsTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.ContactUsTest@1917fb0]" name="contactUsTest" duration-ms="6172" started-at="2021-07-25T13:27:06 IST" data-provider="dp" finished-at="2021-07-25T13:27:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{subjectHeading=Webmaster, email=isha@gmail.com, Runmode=Y, message=HelloTest}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsTest -->
+      </class> <!-- com.w2a.testcases.ContactUsTest -->
+    </test> <!-- ContactUs Test -->
+  </suite> <!-- Page Object Model Basics -->
+</testng-results>
